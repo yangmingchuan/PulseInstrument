@@ -5,7 +5,7 @@
 第一次上传 github 项目，请大佬 多多指教。
 
 效果图
-
+![]https://github.com/yangmingchuan/PulseInstrument/blob/master/pulseInstrumentDemo.gif
 
 [我的博客](http://blog.csdn.net/qq_27948659)
 本人QQ：745612618  。 希望多解释 代码好汉...
