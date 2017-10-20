@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:baselineAligned="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="top|center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/paired_devices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:stackFromBottom="true">
+
+        </ListView>
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/ecg_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <com.example.administrator.bluetootchdemo.view.EcgView
+            android:id="@+id/ecg_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_margin="8dp"/>
+
+    <ListView
+        android:id="@+id/lv_content"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        android:layout_height="0dp">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="起始位">
+
+        </Button>
+
+        <Button
+            android:id="@+id/button_limit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="极限位">
+
+        </Button>
+
+        <Button
+            android:id="@+id/button_acquistion"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:text="连续采">
+
+        </Button>
+
+        <Button
+            android:id="@+id/button_stop"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="停止采">
+
+        </Button>
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="保存">
+        </Button>
+
+        <Button
+            android:id="@+id/button_read"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="读取">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

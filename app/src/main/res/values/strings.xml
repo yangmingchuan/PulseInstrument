@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BlueTootchDemo</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add">添加设备</string>
+
+    <string name="use">设置</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+    <string name="sback">返回</string>
+    <string name="app_use">设置</string>
+    <string name="app_about">关于</string>
+    <string name="usetext">字符格式显示</string>
+    <string name="abouttext">1.初次连接需要配对，以后打开程序就可以自动连接 \r\n
+        2.可以发送数据，接收数据 \r\n
+        3.可以控制开关   \r\n
+        4.控制灯亮度 \r\n \r\n \r\n
+        </string>
+    <string name="delete">删除设备</string>
+    <string name="adjust">调节:</string>
+</resources>
