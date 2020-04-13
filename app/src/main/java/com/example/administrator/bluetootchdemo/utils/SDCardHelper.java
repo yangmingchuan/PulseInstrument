@@ -15,9 +15,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.math.BigDecimal;
 
-/**
- * Created by Administrator on 2017/8/23.
- */
 
 public class SDCardHelper {
 
