@@ -23,7 +23,6 @@ public class SDCardHelper {
 
     // 判断SD卡是否被挂载
     public static boolean isSDCardMounted() {
-        // return Environment.getExternalStorageState().equals("mounted");
         return Environment.getExternalStorageState().equals(
                 Environment.MEDIA_MOUNTED);
     }

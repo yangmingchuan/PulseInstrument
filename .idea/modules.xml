@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BlueTootchDemo.iml" filepath="$PROJECT_DIR$/BlueTootchDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PulseInstrument.iml" filepath="$PROJECT_DIR$/PulseInstrument.iml" group="PulseInstrument" />
+      <module fileurl="file://$PROJECT_DIR$/app/PulseInstrument-app.iml" filepath="$PROJECT_DIR$/app/PulseInstrument-app.iml" group="PulseInstrument/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
